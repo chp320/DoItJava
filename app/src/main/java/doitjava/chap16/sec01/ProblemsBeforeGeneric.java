@@ -1,4 +1,4 @@
-package doitjava.chap16;
+package doitjava.chap16.sec01;
 
 class Apple {}
 class Goods1 {

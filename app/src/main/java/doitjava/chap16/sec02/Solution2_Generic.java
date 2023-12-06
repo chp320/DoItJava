@@ -1,4 +1,4 @@
-package doitjava.chap16;
+package doitjava.chap16.sec02;
 
 class Apple3{}
 class Pencil3{}

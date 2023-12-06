@@ -1,4 +1,4 @@
-package doitjava.chap16;
+package doitjava.chap16.sec01;
 
 /**
  * 최상위 클래스인 Object 클래스를 사용해서 다양한 객체를 저장함.

@@ -1,4 +1,4 @@
-package doitjava.chap16;
+package doitjava.chap16.sec02;
 
 // 제너릭 클래스 정의
 class MyClass<T> {
