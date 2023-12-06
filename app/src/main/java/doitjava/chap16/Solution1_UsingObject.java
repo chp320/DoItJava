@@ -6,8 +6,8 @@ package doitjava.chap16;
  * -> 와!!! 컴파일 시 오류 뱉네!!
  */
 
-class Apple {}
-class Pencil {}
+class Apple1 {}
+class Pencil1 {}
 
 class Goods {
   private Object object = new Object();
@@ -25,11 +25,14 @@ public class Solution1_UsingObject {
     Goods goods1 = new Goods();
     Goods goods2 = new Goods();
 
-    goods1.setObject(new Apple());
-    goods2.setObject(new Pencil());
+    goods1.setObject(new Apple1());
+    goods2.setObject(new Pencil1());
 
-    Apple apple = (Apple) goods1.getObject();
-    Pencil pencil = (Pencil) goods2.getObject();
+    Apple1 apple = (Apple1) goods1.getObject();
+    Pencil1 pencil = (Pencil1) goods2.getObject();
+
+    System.out.println(apple);
+    System.out.println(pencil);
 
     // // 잘못된 캐스팅
     // Goods goods3 = new Goods();
